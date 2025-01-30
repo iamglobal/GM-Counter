@@ -1,5 +1,5 @@
 # GM-Counter
-GM-Counter is a long-term pre-graduation project for SPŠ na Proseku for the year 2025. This is my first project of my own.
+This is my first project of my own. GM-Counter is a long-term pre-graduation project for SPŠ na Proseku for the year 2025.
 
 ## Sources: 
 - [SBM-20 data](https://www.gstube.com/data/2398/)
