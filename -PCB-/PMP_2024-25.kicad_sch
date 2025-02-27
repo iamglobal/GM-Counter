@@ -2593,12 +2593,6 @@
 		(uuid "6d583c18-cd10-414c-93b7-b5083aa7e1f6")
 	)
 	(junction
-		(at 210.82 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d98077b-3df5-4433-a96b-1f9daf5e826a")
-	)
-	(junction
 		(at 217.17 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2711,6 +2705,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fee19661-c44b-4b2f-96d7-718f54f0a003")
+	)
+	(no_connect
+		(at 198.12 93.98)
+		(uuid "a783792e-f68e-4df9-9bb0-ec9fd5306644")
+	)
+	(no_connect
+		(at 189.23 48.26)
+		(uuid "da53e7a4-8ede-4e31-bd20-8b35c8df0bdc")
 	)
 	(wire
 		(pts
@@ -3271,16 +3273,6 @@
 			(type default)
 		)
 		(uuid "73213074-c1aa-43b3-8bfb-01f17fde92b4")
-	)
-	(wire
-		(pts
-			(xy 210.82 104.14) (xy 210.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7714232f-ffd9-4529-b050-d57fbd5a96aa")
 	)
 	(wire
 		(pts
@@ -5322,7 +5314,7 @@
 				)
 			)
 		)
-		(property "Value" "CALIB "
+		(property "Value" "TEST"
 			(at 27.432 109.22 0)
 			(effects
 				(font
@@ -7380,8 +7372,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
-			(at 196.85 110.236 0)
+		(property "Value" "1k"
+			(at 196.342 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
