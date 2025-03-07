@@ -1,4 +1,4 @@
-23044655887608377
+23046397264820516
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94387,6 +94387,13 @@ Varistor VF
 0
 2
 2
+graphics
+obrazek1
+
+
+0
+0
+0
 special
 GeigerTube Holder
 Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
