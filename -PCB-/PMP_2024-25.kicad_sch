@@ -1194,34 +1194,30 @@
 				)
 			)
 		)
-		(symbol "Device:R_Trim"
-			(pin_numbers hide)
+		(symbol "Device:R_Potentiometer_Trim"
 			(pin_names
-				(offset 0)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 -2.54 90)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "R_Trim"
-				(at -2.54 -0.635 90)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1238,7 +1234,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Trimmable resistor (preset resistor)"
+			(property "Description" "Trim-potentiometer"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1247,7 +1243,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor variable potentiometer trimmer"
+			(property "ki_keywords" "resistor variable trimpot trimmer"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1256,7 +1252,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_fp_filters" "Potentiometer*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1265,21 +1261,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Trim_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "R_Potentiometer_Trim_0_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.905) (xy 1.905 1.905) (xy 2.54 1.27) (xy 1.27 2.54)
+						(xy 1.524 0.762) (xy 1.524 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -1289,12 +1274,35 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "R_Trim_1_1"
+			(symbol "R_Potentiometer_Trim_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1310,9 +1318,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 3.81 0 180)
 					(length 1.27)
-					(name "~"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1320,6 +1328,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5851,6 +5877,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 172.72 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54f6db49-b718-4fb4-992a-7a0b56209c64")
+		(property "Reference" "R11"
+			(at 172.72 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trimr 100R"
+			(at 172.72 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "112768b3-01ab-4bdf-8aec-ee5ad5f09ffe")
+		)
+		(pin "3"
+			(uuid "605d30af-f2f5-4472-a4e9-324938aeffa6")
+		)
+		(pin "1"
+			(uuid "c2ba786f-c428-4726-ba3a-88489918e34a")
+		)
+		(instances
+			(project "PMP_2024-25"
+				(path "/263df7bf-97e4-4c30-9039-e3f9743ceae4"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 133.35 24.13 90)
 		(mirror x)
@@ -6000,6 +6097,71 @@
 			(project "PMP_2024-25"
 				(path "/263df7bf-97e4-4c30-9039-e3f9743ceae4"
 					(reference "IO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70c6998c-6f26-4548-ac0a-583fef814ea4")
+		(property "Reference" "#PWR021"
+			(at 172.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7bbc0f7-d885-4f8e-aedc-df59e1937071")
+		)
+		(instances
+			(project "PMP_2024-25"
+				(path "/263df7bf-97e4-4c30-9039-e3f9743ceae4"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6435,74 +6597,6 @@
 			(project "PMP_2024-25"
 				(path "/263df7bf-97e4-4c30-9039-e3f9743ceae4"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Trim")
-		(at 172.72 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f34bd15-91fd-475a-ab1f-a80f2edb72c4")
-		(property "Reference" "R11"
-			(at 172.72 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Trimr 100R"
-			(at 172.72 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 172.72 76.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Trimmable resistor (preset resistor)"
-			(at 172.72 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24af755c-4915-4911-9de5-0a62c6d8897d")
-		)
-		(pin "2"
-			(uuid "e01238b9-a5a3-4da5-a0fa-52a0be462ab8")
-		)
-		(instances
-			(project "PMP_2024-25"
-				(path "/263df7bf-97e4-4c30-9039-e3f9743ceae4"
-					(reference "R11")
 					(unit 1)
 				)
 			)
