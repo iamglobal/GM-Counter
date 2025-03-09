@@ -215,7 +215,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/67093889-48b9-42dd-99c8-8b0eb002ee2b")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -626,7 +626,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/ddad0d6c-509f-468e-94bc-27ecfb51814f")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2151,7 +2151,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8625c6bc-a933-4a56-bac2-ba936f52165c")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2403,7 +2403,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/c59c9950-901e-4709-8927-29cfcfe0ffa1")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2615,7 +2615,7 @@
 		(at 140.97 149.479)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 0 -1.56 0)
 			(layer "F.SilkS")
 			(uuid "65b75f89-29f0-4b0d-bfa0-e0f7ddb1f4e3")
@@ -2675,7 +2675,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/abc33e88-f8d3-409a-8aa1-502fa92e3a6f")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2938,7 +2938,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/1b0316f8-fac6-43c9-b6de-4ade03af627a")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3190,7 +3190,7 @@
 		)
 		(property ki_fp_filters "*Buzzer*")
 		(path "/5370923e-1556-45d8-b75c-21582c2fdffc")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_circle
@@ -3370,7 +3370,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/28628262-115f-4b1f-afa4-a9c29b6aba50")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3642,7 +3642,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/fe72c3f1-550c-4fd0-8731-a852881632f8")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5167,7 +5167,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/01a1c2b9-7019-447e-9ae7-6e5f314de78c")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5419,7 +5419,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c342221c-4af9-4a8d-b76a-f678919e4105")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5671,7 +5671,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b8dbd0f2-dda3-41e8-8bd4-334f83708256")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5943,7 +5943,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/f1c01943-7fe8-4c0d-8dcf-295a3eaac277")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6135,7 +6135,7 @@
 		(at 135.89 149.479)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 0 -1.56 0)
 			(layer "F.SilkS")
 			(uuid "70117491-fbc5-4d62-90b0-79bab513049b")
@@ -6195,7 +6195,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b2995b3c-9a23-4771-a708-ac7144589cf6")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6458,7 +6458,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/0880926d-1e8f-442e-8d04-19d7a7aeb4d3")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6768,7 +6768,7 @@
 			)
 		)
 		(path "/3d8d011a-f5c6-4cfe-8210-6ec6c34b06d9")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7023,7 +7023,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/99a327cb-1578-44d7-ad2b-e9a077c247ff")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7379,7 +7379,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/b3e3a27e-3f7b-45e4-bfa5-8c55bb6dc290")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7790,7 +7790,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9752f8b2-8b42-46f9-a4c6-577a480358cc")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8100,7 +8100,7 @@
 			)
 		)
 		(path "/41108c46-61cc-4be4-8711-effdf498b27d")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8329,7 +8329,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/c9062694-8862-428a-891b-51e6f639709b")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8601,7 +8601,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/1e3a5738-4144-473e-a6c8-fc49ebb7c3f5")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8873,7 +8873,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/b65c8140-ecf0-4e6d-a85d-320d6ca3eae7")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_circle
@@ -9046,7 +9046,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/52177f8c-a2a7-467d-8239-8b5d570089b3")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9402,7 +9402,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e3e0aeb5-6156-44a2-ab78-e7ac2ae69395")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9674,7 +9674,7 @@
 		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/54f6db49-b718-4fb4-992a-7a0b56209c64")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9996,7 +9996,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/280dba23-e9de-4fcf-a88d-37bf9b353e33")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10390,7 +10390,7 @@
 			)
 		)
 		(path "/c11f86d1-e177-40df-8755-62b74400629c")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10619,7 +10619,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/11a3f567-5053-43cb-a252-855ab73c7ba8")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10848,7 +10848,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/37a8328f-22bd-469d-b4dc-81dac12bdcf5")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11120,7 +11120,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9fa1dda8-903c-4878-9339-34267443b5d1")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11499,7 +11499,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/0230f6ea-76a2-432d-bdf6-67078f0c5362")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11751,7 +11751,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/e4652d35-f8a2-48d5-8e11-cc87cfe34fdc")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12003,7 +12003,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/02482687-b716-402a-ab64-ccb597f31d2f")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12275,7 +12275,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/33b9fccb-2876-4191-989b-a72241d47168")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12547,7 +12547,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/dd4bdf62-9726-4c65-ab29-11f0c7353a8b")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12859,7 +12859,7 @@
 			)
 		)
 		(path "/81eda95a-550e-41f1-8185-b02edb4ad934")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13089,7 +13089,7 @@
 			)
 		)
 		(path "/b01dffc1-1711-4783-a5ce-6dfbc0d3d1ef")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13493,7 +13493,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/36d77309-8efa-498f-a83e-50b7e6cc4f63")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13696,7 +13696,7 @@
 		(at 138.43 149.479)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 0 -1.56 0)
 			(layer "F.SilkS")
 			(uuid "ae34616d-3f94-4335-978b-9a6c1d498792")
@@ -13756,7 +13756,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/40b311b0-2462-455a-800f-8f1253d42407")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14126,7 +14126,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/847ac370-9a7a-4ba8-b2e9-889a7e8e211d")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14398,7 +14398,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/2473733e-a6b9-4986-967d-c27dfb0efda2")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14670,7 +14670,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/cc535062-4674-457b-94e8-fadb1f73e05c")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14942,7 +14942,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b79b1085-dd6e-4ba1-8f3f-73a90e583580")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15194,7 +15194,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/0ba33cba-86ae-4548-a6fd-9125f0083486")
-		(sheetname "Hlavní")
+		(sheetname "Root")
 		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15576,7 +15576,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/b8e42786-1d6f-472f-ac38-13e2ed40d47c")
+		(sheetname "Root")
+		(sheetfile "PMP_2024-25.kicad_sch")
 		(attr board_only exclude_from_pos_files)
 		(fp_poly
 			(pts
@@ -18455,11 +18458,11 @@
 		(layer "Dwgs.User")
 		(uuid "e4d9979e-0498-4cfc-8746-0a757b62594e")
 		(pts
-			(xy 112.4 152.4) (xy 124.9 152.4)
+			(xy 112.6 149.5) (xy 125.1 149.5)
 		)
 		(height 13.7)
 		(gr_text "12.5 mm"
-			(at 118.65 164.95 0)
+			(at 118.9 161.9 0)
 			(layer "Dwgs.User")
 			(uuid "e4d9979e-0498-4cfc-8746-0a757b62594e")
 			(effects
@@ -18479,7 +18482,7 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
