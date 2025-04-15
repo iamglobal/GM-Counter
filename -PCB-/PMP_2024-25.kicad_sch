@@ -6008,7 +6008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 172.72 74.93 0)
 			(effects
 				(font
@@ -7642,7 +7642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "obrazek 1"
 			(at 140.97 133.8579 0)
 			(effects
 				(font
